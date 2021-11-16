@@ -41,7 +41,7 @@ X_train,X_test,y_train,y_test=train_test_split(data,target,test_size=0.2,random_
 #define the model and parameters
 knn = KNeighborsClassifier()
 
-parameters = {"n_neighbors":[1,10],
+parameters = {"n_neighbors":range(1,10),
               "leaf_size":[1,3,5],
               "algorithm":["auto", "ball_tree", "kd_tree", "brute"],
               "n_jobs":[-1],
