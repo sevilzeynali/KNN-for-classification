@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report
 
 import mlflow
 
-#This data sett is available here: https://www.kaggle.com/amolbhivarkar/knn-for-classification-using-scikit-learn/data?select=diabetes.csv
+#This data set is available here: https://www.kaggle.com/amolbhivarkar/knn-for-classification-using-scikit-learn/data?select=diabetes.csv
 
 df=pd.read_csv("diabetes.csv")
 df.head(10)
