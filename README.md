@@ -27,7 +27,7 @@ knn_for_classification.py
 This program uses GridSearchCV to select the best Hyperparameter 's of KNN classifier.
 Classification report of this model is :
  ```
-					precision    recall  f1-score   support
+		       precision    recall  f1-score   support
 
            0       0.77      0.88      0.82        96
            1       0.73      0.57      0.64        58
